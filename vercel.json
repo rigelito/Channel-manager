@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "api/hotel_manager.py",
+      "src": "hotel_manager.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "api/hotel_manager.py"
+      "dest": "hotel_manager.py"
     }
   ]
 }
